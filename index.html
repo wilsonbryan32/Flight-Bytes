@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="hackGT.css" rel="stylesheet" />
+  
+
+    <!--All Firebase headers-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FlightBytes</title>
+  
+    <!-- update the version number as needed --><!--
+    <script defer src="/__/firebase/5.5.5/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need 
+    <script defer src="/__/firebase/5.5.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.5.5/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.5.5/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.5.5/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded 
+    <script defer src="/__/firebase/init.js"></script>
+    -->
+    
+    <!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-functions.js"></script>
+
+<!-- Comment out (or don't include) services that you don't want to use -->
+<!-- <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-storage.js"></script> -->
+    
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCeO3ACNXH4Lzo60n_mldvKhHFLGY9rZ_M",
+    authDomain: "plane-hackgt.firebaseapp.com",
+    databaseURL: "https://plane-hackgt.firebaseio.com",
+    projectId: "plane-hackgt",
+    storageBucket: "plane-hackgt.appspot.com",
+    messagingSenderId: "1085328832238"
+  };
+    
+  firebase.initializeApp(config);
+</script>
+<script src="hackGT.js"></script>
+    
+</head>
+<!--
+<!-- Firebase --><!--
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script>
+            // Replace your Configuration here..
+            var config = {
+                apiKey: "AIzaSyAe4HH4BTMNcPd6rHI17EEaRNlmWmGAkuc",
+                authDomain: "realtime-on-map-example.firebaseapp.com",
+                databaseURL: "https://realtime-on-map-example.firebaseio.com",
+                projectId: "realtime-on-map-example",
+                storageBucket: "",
+                messagingSenderId: "851837622908"
+            };
+            firebase.initializeApp(config);
+        </script>
+    -->
+<body>
+
+  <h3>FlightByters</h3>
+  <!--The div element for the map -->
+  <div id="map"></div>
+
+  <article>
+    <!-- <img id="line" src="line.png"> -->
+    <h2> How does it work?</h2>
+    <p id="paragraph">FlightBytes is an innovative web application that tracks the live geographical data for airlines flying throughout the United States. By utilizing this real-time application, air traffic control specialists are able to seamlessly increase air space efficiency while decreasing air travel risk.</p>
+  </article>
+
+
+  <!--Load the API from the specified URL
+* The async attribute allows the browser to render the page while the API loads
+* The callback parameter executes the initMap() function
+-->
+
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbtw48JgTX8DnDKLAr5Z_BnH0mvB3CeeQ&callback=initMap">
+  </script>
+
+
+  <footer>
+    <p id="contact">Contact Us:</p>
+
+    <p id="contact">Github: cange017/hackGT</p>
+  </footer>
+
+</body>
+
+</html>

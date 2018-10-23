@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Playfair+Display|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Concert One|Glegoo|Courgette|Abel|Source+Sans+Pro|PT+Sans|PT+Serif|PT+Mono';
+
+html {
+    border: 15px solid lightblue;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Concert One", sans-serif;
+    text-align: center;
+    font-size: 160%;
+    padding: 2%;
+    letter-spacing: 10px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 500px;  
+    width: 90%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+#line {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 2%;
+    width: 10%;
+    height: 20%;
+    
+}
+/*/
+h2 {
+    font-family: "Concert One", sans-serif;
+    text-align: center;
+    font-size: 150%;
+    padding: 2%;
+  
+}
+#paragraph{
+    font-family: "Karla", sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    padding: 5%;
+    font-size:130%;
+    background-color: lightblue;
+}
+
+
+footer {
+    font-size: 1.3em;
+    text-align: right;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+    margin: 0% -8px 0px -8px;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Karla", sans-serif;
+    color: black;
+    background-color: lightblue;
+}
+
+
